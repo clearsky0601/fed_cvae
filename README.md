@@ -1,18 +1,6 @@
 # FedCVAE
 
-### Description
-This repository include implementations for a variety of established Federated Learning methods as well as two novel methods, FedCVAE-KD and FedCVAE-Ens. Please see the accompanying paper "[Data-Free One-Shot Federated Learning Under Very High Statistical Heterogeneity](https://openreview.net/forum?id=_hb4vM3jspB)" (ICLR 2023) for further details. If you found our implementation helpflul, consider citing our work:
 
-```
-@inproceedings{
-  heinbaugh2023datafree,
-  title     = {Data-Free One-Shot Federated Learning Under Very High Statistical Heterogeneity},
-  author    = {Clare Elizabeth Heinbaugh and Emilio Luz-Ricca and Huajie Shao},
-  booktitle = {The Eleventh International Conference on Learning Representations },
-  year      = {2023},
-  url       = {https://openreview.net/forum?id=_hb4vM3jspB}
-}
-```
 
 ### Prerequisites
 1. Python 3.9.x+
@@ -97,3 +85,20 @@ Modify `--uniform_range` to change the uniform range that the decoder uses to dr
 ### Format
 1. Run `black .` from the repo root.
 2. Run `isort .` also from the repo root.
+
+
+
+
+### Description
+This repository include implementations for a variety of established Federated Learning methods as well as two novel methods, FedCVAE-KD and FedCVAE-Ens. Please see the accompanying paper "[Data-Free One-Shot Federated Learning Under Very High Statistical Heterogeneity](https://openreview.net/forum?id=_hb4vM3jspB)" (ICLR 2023) for further details. If you found our implementation helpflul, consider citing our work:
+
+```
+@inproceedings{
+  heinbaugh2023datafree,
+  title     = {Data-Free One-Shot Federated Learning Under Very High Statistical Heterogeneity},
+  author    = {Clare Elizabeth Heinbaugh and Emilio Luz-Ricca and Huajie Shao},
+  booktitle = {The Eleventh International Conference on Learning Representations },
+  year      = {2023},
+  url       = {https://openreview.net/forum?id=_hb4vM3jspB}
+}
+```
